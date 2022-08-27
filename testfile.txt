@@ -2,3 +2,10 @@ This is just a test text file
 
 After first commit
 After second commit
+
+Pending tasks:
+1. p142 answers your questions about invoicing customers. Each Individual Vendor gets there own list of items they sell. CUSTOMERS are different. CUSTOMERS all use the same list. In p142 you need to add a way to create a customer list of items. Save that list in table customer_list. When billing a customer choose the items from customer_list table (Same as vendor, just a different table to get list from) . After choosing item , everything about billing (AR) is the exact same as vendor.
+2. For Black Duck, the customer list is the f_item table. For testing just show the first 10 items in f_item. After this is working I will give a correct plan to get items.
+ -- For Black Duck use the f_item table in place of the vendor_items. For testing use only the first 10 items in table.
+ -- p148 Status changes on clicking links in Show Request SMS or email
+ -- p 149 task_bill will not need bill_amount but will have customer_item_id
