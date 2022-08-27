@@ -1,0 +1,4 @@
+This is just a test text file
+
+After first commit
+After second commit
